@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="100dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/tvttcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Nhập thông tin cá nhân"
+        android:textColor="#1c1c1c"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvttcn"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_edt"
+            android:hint="Số điện thoại"
+            android:maxLength="13"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_edt"
+            android:hint="Nhập email"
+            android:maxLength="20"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edtFullName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_edt"
+            android:hint="Nhập tên đầy đủ"
+            android:maxLength="20"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edtOffice"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_edt"
+            android:hint="Nhập tên cơ quan"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edtReType"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_edt"
+            android:hint="Nhập lại mật khẩu"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/btntieptuc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/border_btn"
+            android:text="Tiếp tục"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

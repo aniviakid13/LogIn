@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="100dp"
+    android:paddingRight="20dp">
+
+    <EditText
+        android:id="@+id/edtA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border_edt"
+        android:hint="Nhập số"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border_edt"
+        android:hint="Nhập số"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/edtKQ"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border_edt"
+        android:hint="Kết quả"
+        android:paddingLeft="10dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnCong"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border_btn"
+            android:text="+"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnTru"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border_btn"
+            android:text="-"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnNhan"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border_btn"
+            android:text="*"/>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btnChia"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border_btn"
+            android:text="/"/>
+    </LinearLayout>
+
+
+</LinearLayout>
